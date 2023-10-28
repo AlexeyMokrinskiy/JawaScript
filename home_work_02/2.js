@@ -12,5 +12,5 @@
 //   console.log("До свидания.");
 // }
 
-// const test = confirm("У вас много денег?");  // поменял let на const
-// (test === true) ? console.log("Скоро будем у вас ;)") : console.log("До свидания.");
+// const test = confirm("У вас много денег?");  // поменял let на 
+// (test) ? console.log("Скоро будем у вас ;)") : console.log("До свидания.");
