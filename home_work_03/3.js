@@ -10,15 +10,15 @@
 три числа. Проверять их не нужно.
 */
 
-// const userNumFst = Number(prompt('Введите первое число'));
-// const userNumSnd = Number(prompt('Введите второе число'));
-// const userNumTrd = Number(prompt('Введите третье число'));
+const userNumFst = Number(prompt('Введите первое число'));
+const userNumSnd = Number(prompt('Введите второе число'));
+const userNumTrd = Number(prompt('Введите третье число'));
 
-// function maxOfTree(num1, num2, num3) {
-//     return Math.max(num1, num2, num3)
-// }
+function maxOfTree(num1, num2, num3) {
+    return Math.max(num1, num2, num3)
+}
 
-// console.log(`Максимальное значение среди чисел ${userNumFst}, ${userNumSnd}, ${userNumTrd} равно ${maxOfTree(userNumFst, userNumSnd, userNumTrd)}`);
+console.log(`Максимальное значение среди чисел ${userNumFst}, ${userNumSnd}, ${userNumTrd} равно ${maxOfTree(userNumFst, userNumSnd, userNumTrd)}`);
 
 
 // Сдесь можно использовать массив

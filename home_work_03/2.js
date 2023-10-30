@@ -11,14 +11,14 @@
 
 // Здесь пишем решение, данный комментарий необходимо стереть.
 
-// function netSalary(grossSalary) {
-//     return grossSalary * 0.87
-// }
+function netSalary(grossSalary) {
+    return grossSalary * 0.87;
+}
 
-// const userSalary = Number(prompt('Введите своюзарплату'))
+const userSalary = Number(prompt('Введите своюзарплату'))
 
-// if (userSalary > 0) {
-//     console.log(`Размер заработной платы за вычетом налогов равен ${netSalary(userSalary)}`);
-// } else {
-//     console.log('Значение задано неверно');
-// }
+if (userSalary > 0 && Number.isFinite(num)) {
+    console.log(`Размер заработной платы за вычетом налогов равен ${netSalary(userSalary)}`);
+} else {
+    console.log('Значение задано неверно');
+}

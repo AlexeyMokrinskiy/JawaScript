@@ -7,12 +7,12 @@
 который получаем от функции, в консоль.
 */
 
-// const userNum = Number(prompt('Введите число: '));
+const userNum = Number(prompt('Введите число: '));
 
-// function toCube(num) {
-//     return num **3;
-// }
+function toCube(num) {
+    return num ** 3;
+}
 
-// console.log(`${userNum} в кубе ${toCube(userNum)}`);
+console.log(`${userNum} в кубе ${toCube(userNum)}`);
 
 // Я сделал запрос числа от пользовотеля, хотя это не по заданию. 
