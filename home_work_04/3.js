@@ -26,7 +26,7 @@ for (const number of arrTree) {
 }
 console.log(`Сумму элементов массива ${sum}`);
 
-let min = Math.min.apply(null, arrTree);
+const min = Math.min(...arrTree);
 console.log(`Минимальное значение в массиве ${min}`);
 
 const newArr = [];

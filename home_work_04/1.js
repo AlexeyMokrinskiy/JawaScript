@@ -13,7 +13,7 @@
 for (let i = 0; i < 11; i++) {
     if (i === 0) {
         console.log('0 – это ноль');
-    } else if (i % 2 == 1) {
+    } else if (i % 2 === 1) {
         console.log(`${i} - нечетное число`);
     } else {
         console.log(`${i} - четное число`);
